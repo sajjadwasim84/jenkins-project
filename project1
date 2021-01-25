@@ -5,11 +5,11 @@ pipeline {
             steps {
                 sh '''
                     echo 'this is the first pipeline project ..'
-                    w
+                    ls -lah
+                    pwd
                 '''
 
             }
         }
 
     }
-}
