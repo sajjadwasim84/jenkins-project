@@ -6,7 +6,7 @@ pipeline {
                 sh '''
                     echo 'this is the first pipeline project ..'
                     ls -lah
-                    pwd
+                    w
                 '''
 
             }
